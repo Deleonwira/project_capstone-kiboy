@@ -1,0 +1,47 @@
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Database / Local configurations
+.env
+.env.local
+.env.*.local
+
+# ===== Spring Boot (Java) =====
+springboot-api/target/
+springboot-api/.mvn/
+springboot-api/*.class
+springboot-api/*.jar
+springboot-api/*.war
+springboot-api/*.zip
+
+# ===== Flutter / Dart =====
+travelitineraryplannerapp_flutter/flutter/.dart_tool/
+travelitineraryplannerapp_flutter/flutter/.flutter-plugins
+travelitineraryplannerapp_flutter/flutter/.flutter-plugins-dependencies
+travelitineraryplannerapp_flutter/flutter/.packages
+travelitineraryplannerapp_flutter/flutter/build/
+travelitineraryplannerapp_flutter/flutter/.pub-cache/
+travelitineraryplannerapp_flutter/flutter/.pub/
+travelitineraryplannerapp_flutter/flutter/pubspec.lock
+
+# Windows/Mac/Linux specific build files
+travelitineraryplannerapp_flutter/flutter/windows/flutter/ephemeral/
+travelitineraryplannerapp_flutter/flutter/macos/Flutter/ephemeral/
+
+# ===== PHP (CodeIgniter) =====
+booking_admin/vendor/
+booking_admin/writable/cache/*
+booking_admin/writable/codeigniter/
+booking_admin/writable/debugbar/
+booking_admin/writable/session/*
+booking_admin/writable/uploads/*
+!booking_admin/writable/cache/index.html
+!booking_admin/writable/session/index.html
+!booking_admin/writable/uploads/index.html
